@@ -1,0 +1,82 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+html, body {
+    color: #4d4e53
+}
+
+body {
+    display: block;
+    font-family: 'Open Sans', Arial, sans-serif;    
+    font-size: 16px;
+    line-height: 1.5;    
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+}
+
+nav {
+    position: fixed;
+    width: 300px;    
+    min-width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-right: solid;
+    font-size: 16px;
+}
+
+nav > ul {
+    display: flex;  
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    margin-block: 0;        
+}
+
+#navbar li {
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 110%;
+    margin: 0 0 0 -20px; 
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    white-space: pre;
+    text-transform: none;
+    }
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #4d4e53; 
+    font-style: normal;
+    text-decoration: none;
+    padding-left: 45px;
+}
+
+ul {
+    display: block;
+    margin: 1em 0;    
+}
+
+header {    
+    margin: 10px;  
+    font-size: 1.8em;
+    color: black;
+    display: inline;
+}
+
+section {
+    display: block;
+    margin: 15px;
+    font-size: 0.96em;
+}
